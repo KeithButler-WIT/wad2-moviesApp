@@ -50,3 +50,78 @@ Info 42   [13:50:14.611] -----------------------------------------------
 Info 43   [13:50:17.323] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
 Info 44   [13:50:17.440] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 115.91355299949646ms
 Info 45   [13:50:17.440] Different program with same set of files
+Info 46   [13:52:34.806] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [13:52:34.998] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: SafeModules Elapsed: 192.1003350019455ms
+Info 48   [13:52:34.998] Project '/dev/null/inferredProject1*' (Inferred)
+Info 49   [13:52:34.998] 	Files (560)
+
+Info 50   [13:52:34.998] -----------------------------------------------
+Info 51   [13:52:34.998] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 52   [13:52:34.998] 	Files (556)
+
+Info 53   [13:52:34.998] -----------------------------------------------
+Info 54   [13:52:36.713] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 55   [13:52:36.793] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 79.88565100729465ms
+Info 56   [13:52:36.793] Different program with same set of files
+Info 57   [13:55:02.646] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/api
+Info 58   [13:55:02.647] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/api/tmdb-api.js :: No config files found.
+Info 59   [13:55:02.654] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 60   [13:55:02.864] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 209.1145870089531ms
+Info 61   [13:55:02.864] Project '/dev/null/inferredProject3*' (Inferred)
+Info 62   [13:55:02.864] 	Files (182)
+
+Info 63   [13:55:02.864] -----------------------------------------------
+Info 64   [13:55:02.903] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject3*
+Info 65   [13:55:03.323] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 419.05210599303246ms
+Info 66   [13:55:03.323] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 67   [13:55:03.323] 	Files (556)
+
+Info 68   [13:55:03.323] -----------------------------------------------
+Info 69   [13:55:03.347] `remove Project::
+Info 70   [13:55:03.347] Project '/dev/null/inferredProject2*' (Inferred)
+Info 71   [13:55:03.347] 	Files (559)
+
+Info 72   [13:55:03.347] -----------------------------------------------
+Info 73   [13:55:03.347] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 74   [13:55:03.347] 	Files (556)
+
+Info 75   [13:55:03.347] -----------------------------------------------
+Info 76   [13:55:09.762] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 77   [13:55:09.822] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 59.94931600987911ms
+Info 78   [13:55:09.822] Different program with same set of files
+Info 79   [13:55:12.502] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 80   [13:55:12.575] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 72.65551900863647ms
+Info 81   [13:55:12.575] Different program with same set of files
+Info 82   [13:58:18.775] FileWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 1:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 500 undefined WatchType: Closed Script info
+Info 83   [13:58:18.777] Elapsed:: 1.5841200053691864ms FileWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 1:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 500 undefined WatchType: Closed Script info
+Info 84   [13:58:19.029] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 85   [13:58:19.371] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true structureIsReused:: SafeModules Elapsed: 342.26603899896145ms
+Info 86   [13:58:19.371] Project '/dev/null/inferredProject1*' (Inferred)
+Info 87   [13:58:19.371] 	Files (561)
+
+Info 88   [13:58:19.371] -----------------------------------------------
+Info 89   [13:58:19.372] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 90   [13:58:19.372] 	Files (556)
+
+Info 91   [13:58:19.372] -----------------------------------------------
+Info 92   [13:58:21.279] Before ensureProjectForOpenFiles:
+Info 93   [13:58:21.280] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 94   [13:58:21.286] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 4 structureChanged: true structureIsReused:: Not Elapsed: 5.9012539982795715ms
+Info 95   [13:58:21.286] Project '/dev/null/inferredProject3*' (Inferred)
+Info 96   [13:58:21.286] 	Files (0)
+
+Info 97   [13:58:21.286] -----------------------------------------------
+Info 98   [13:58:21.286] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 99   [13:58:21.286] 	Files (556)
+
+Info 100  [13:58:21.286] -----------------------------------------------
+Info 101  [13:58:21.287] After ensureProjectForOpenFiles:
+Info 102  [13:58:21.288] got projects updated in background, updating diagnostics for /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/pages/favoriteMoviesPage.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/templateMovieListPage/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/api/tmdb-api.js
+Info 103  [13:59:06.390] FileWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 1:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 500 undefined WatchType: Closed Script info
+Info 104  [13:59:06.390] Elapsed:: 0.16133400797843933ms FileWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 1:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/filterMoviesCard/index.js 500 undefined WatchType: Closed Script info
+Info 105  [13:59:06.642] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 106  [13:59:06.806] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 164.07617899775505ms
+Info 107  [13:59:06.806] Different program with same set of files
+Info 108  [13:59:08.892] Before ensureProjectForOpenFiles:
+Info 109  [13:59:08.892] After ensureProjectForOpenFiles:
+Info 110  [13:59:08.892] got projects updated in background, updating diagnostics for /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/pages/favoriteMoviesPage.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/templateMovieListPage/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/api/tmdb-api.js
