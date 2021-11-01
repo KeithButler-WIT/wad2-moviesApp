@@ -32,7 +32,7 @@ const MovieHeader = ( { movie, history}) => {
 
       <Typography variant="h4" component="h3">
         {movie.title}
-        <a href={movie.homepage}>
+        <a href={movie.upcomingMoviesPage}>
           <HomeIcon color="primary" />
         </a>
         <br />

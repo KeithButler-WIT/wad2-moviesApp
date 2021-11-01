@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   },
 });
 
-function MovieListPageTemplate({ movies, title, selectFavorite }) {
+function MovieListPageTemplate({ movies, title, selectFavorite}) {
   const classes = useStyles();
   const [nameFilter, setNameFilter] = useState("");
   const [genreFilter, setGenreFilter] = useState("0");
@@ -44,6 +44,7 @@ function MovieListPageTemplate({ movies, title, selectFavorite }) {
           />
         </Grid>
         <MovieList selectFavorite={selectFavorite} movies={displayedMovies}></MovieList>
+        {/* <MovieList selectUpcoming={selectUpcoming} movies={displayedMovies}></MovieList> */}
       </Grid>
     </Grid>
   );
