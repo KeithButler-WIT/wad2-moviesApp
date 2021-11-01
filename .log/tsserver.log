@@ -894,3 +894,89 @@ Info 824  [15:23:43.074] Returning an empty list because completion was inside a
 Info 825  [15:23:43.155] getCompletionData: Get current token: 0.010099008679389954
 Info 826  [15:23:43.155] getCompletionData: Is inside comment: 0.07662199437618256
 Info 827  [15:23:43.156] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 828  [15:24:56.451] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 829  [15:24:56.508] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 56.68318000435829ms
+Info 830  [15:24:56.508] Different program with same set of files
+Info 831  [15:26:30.778] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/headerMovieList
+Info 832  [15:26:30.778] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/headerMovieList/index.js :: No config files found.
+Info 833  [15:26:52.372] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 834  [15:26:52.437] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 64.81513598561287ms
+Info 835  [15:26:52.437] Different program with same set of files
+Info 836  [15:27:00.938] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 837  [15:27:00.983] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 44.44403798878193ms
+Info 838  [15:27:00.983] Different program with same set of files
+Info 839  [15:27:02.598] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 840  [15:27:02.648] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 49.49016700685024ms
+Info 841  [15:27:02.648] Different program with same set of files
+Info 842  [15:27:07.147] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 843  [15:27:07.188] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 40.31766100227833ms
+Info 844  [15:27:07.188] Different program with same set of files
+Info 845  [15:27:21.424] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 846  [15:27:21.466] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 41.5152949988842ms
+Info 847  [15:27:21.466] Different program with same set of files
+Info 848  [15:27:23.342] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 849  [15:27:23.379] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 36.870776012539864ms
+Info 850  [15:27:23.379] Different program with same set of files
+Err 851   [15:27:23.413] Exception on executing command {"command":"getApplicableRefactors","seq":1713,"type":"request","arguments":{"file":"/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/headerMovieList/index.js","startLine":35,"startOffset":38,"endLine":35,"endOffset":38}}:
+
+    Debug Failure. Expected 1147 <= 1146
+
+    Error: Debug Failure. Expected 1147 <= 1146
+        at assertDiagnosticLocation (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:14805:22)
+        at Object.createFileDiagnostic (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:19370:9)
+        at getRangeToExtract (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:151807:42)
+        at Object.getAvailableActions (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:151608:38)
+        at /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:142780:30
+        at getIterator (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:573:23)
+        at Object.next (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:568:35)
+        at Object.arrayFrom (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:1313:40)
+        at Object.getApplicableRefactors (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:142776:23)
+        at Object.getApplicableRefactors (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:157560:32)
+        at IOSession.Session.getApplicableRefactors (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:168512:53)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:167223:61)
+        at /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:168880:88
+        at IOSession.Session.executeWithRequestId (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:168871:28)
+        at IOSession.Session.executeCommand (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:168880:33)
+        at IOSession.Session.onMessage (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:168906:35)
+        at Interface.<anonymous> (/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/typescript/lib/tsserver.js:171511:31)
+        at Interface.emit (node:events:390:28)
+        at Interface._onLine (node:readline:487:10)
+        at Interface._normalWrite (node:readline:661:12)
+        at Socket.ondata (node:readline:269:10)
+        at Socket.emit (node:events:390:28)
+        at addChunk (node:internal/streams/readable:315:12)
+        at readableAddChunk (node:internal/streams/readable:289:9)
+        at Socket.Readable.push (node:internal/streams/readable:228:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+Info 852  [15:27:25.957] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 853  [15:27:26.000] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 43.105084002017975ms
+Info 854  [15:27:26.000] Different program with same set of files
+Info 855  [15:27:26.001] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 856  [15:27:26.044] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 43.05741600692272ms
+Info 857  [15:27:26.044] Different program with same set of files
+Info 858  [15:27:32.460] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 859  [15:27:32.521] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 52 structureChanged: true structureIsReused:: SafeModules Elapsed: 61.50959400832653ms
+Info 860  [15:27:32.522] Different program with same set of files
+Info 861  [15:27:44.995] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 862  [15:27:45.034] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 38.84791000187397ms
+Info 863  [15:27:45.034] Different program with same set of files
+Info 864  [15:27:47.158] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 865  [15:27:47.200] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 42.58503200113773ms
+Info 866  [15:27:47.201] Different program with same set of files
+Info 867  [15:27:49.353] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 868  [15:27:49.396] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 42.061608001589775ms
+Info 869  [15:27:49.396] Different program with same set of files
+Info 870  [15:27:49.397] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 871  [15:27:49.438] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 41.287664011120796ms
+Info 872  [15:27:49.438] Different program with same set of files
+Info 873  [15:28:04.690] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 874  [15:28:04.728] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 37.98497399687767ms
+Info 875  [15:28:04.728] Different program with same set of files
+Info 876  [15:28:21.662] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/headerMovie
+Info 877  [15:28:21.662] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/headerMovie/index.js :: No config files found.
+Info 878  [15:28:27.581] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 879  [15:28:27.651] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 58 structureChanged: true structureIsReused:: SafeModules Elapsed: 69.92864599823952ms
+Info 880  [15:28:27.651] Different program with same set of files
+Info 881  [15:28:29.406] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 882  [15:28:29.459] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 52.193163990974426ms
+Info 883  [15:28:29.459] Different program with same set of files
