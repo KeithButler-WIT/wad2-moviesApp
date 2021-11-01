@@ -449,3 +449,60 @@ Info 397  [15:14:43.276] Different program with same set of files
 Info 398  [15:14:44.946] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
 Info 399  [15:14:44.984] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 37.45194099843502ms
 Info 400  [15:14:44.984] Different program with same set of files
+Info 401  [15:16:35.737] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 402  [15:16:35.802] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 64.90398898720741ms
+Info 403  [15:16:35.802] Different program with same set of files
+Info 404  [15:17:31.850] DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/hooks :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src 0 undefined Project: /dev/null/inferredProject8* WatchType: Failed Lookup Locations
+Info 405  [15:17:31.851] Elapsed:: 0.242126002907753ms DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/hooks :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src 0 undefined Project: /dev/null/inferredProject8* WatchType: Failed Lookup Locations
+Info 406  [15:18:15.026] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/hooks
+Info 407  [15:18:15.026] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/hooks/useMovie.js :: No config files found.
+Info 408  [15:18:15.030] Starting updateGraphWorker: Project: /dev/null/inferredProject9*
+Info 409  [15:18:15.124] Finishing updateGraphWorker: Project: /dev/null/inferredProject9* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 93.76449100673199ms
+Info 410  [15:18:15.124] Project '/dev/null/inferredProject9*' (Inferred)
+Info 411  [15:18:15.124] 	Files (182)
+
+Info 412  [15:18:15.124] -----------------------------------------------
+Info 413  [15:18:15.134] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject9*
+Info 414  [15:18:15.311] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject9* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 177.1184100061655ms
+Info 415  [15:18:15.311] Project '/dev/null/autoImportProviderProject9*' (AutoImportProvider)
+Info 416  [15:18:15.311] 	Files (556)
+
+Info 417  [15:18:15.311] -----------------------------------------------
+Info 418  [15:18:15.313] `remove Project::
+Info 419  [15:18:15.313] Project '/dev/null/inferredProject7*' (Inferred)
+Info 420  [15:18:15.313] 	Files (556)
+
+Info 421  [15:18:15.313] -----------------------------------------------
+Info 422  [15:18:15.313] Project '/dev/null/autoImportProviderProject7*' (AutoImportProvider)
+Info 423  [15:18:15.313] 	Files (556)
+
+Info 424  [15:18:15.313] -----------------------------------------------
+Info 425  [15:18:21.185] Starting updateGraphWorker: Project: /dev/null/inferredProject9*
+Info 426  [15:18:21.231] Finishing updateGraphWorker: Project: /dev/null/inferredProject9* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 46.19745299220085ms
+Info 427  [15:18:21.231] Project '/dev/null/inferredProject9*' (Inferred)
+Info 428  [15:18:21.231] 	Files (183)
+
+Info 429  [15:18:21.231] -----------------------------------------------
+Info 430  [15:18:21.231] Project '/dev/null/autoImportProviderProject9*' (AutoImportProvider)
+Info 431  [15:18:21.231] 	Files (556)
+
+Info 432  [15:18:21.231] -----------------------------------------------
+Info 433  [15:18:22.425] Starting updateGraphWorker: Project: /dev/null/inferredProject9*
+Info 434  [15:18:22.457] Finishing updateGraphWorker: Project: /dev/null/inferredProject9* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 31.129224002361298ms
+Info 435  [15:18:22.457] Different program with same set of files
+Info 436  [15:18:37.662] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 437  [15:18:37.700] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 37.751818999648094ms
+Info 438  [15:18:37.700] Different program with same set of files
+Info 439  [15:18:57.397] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 440  [15:18:57.458] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 14 structureChanged: true structureIsReused:: SafeModules Elapsed: 60.76887699961662ms
+Info 441  [15:18:57.458] Project '/dev/null/inferredProject8*' (Inferred)
+Info 442  [15:18:57.458] 	Files (591)
+
+Info 443  [15:18:57.458] -----------------------------------------------
+Info 444  [15:18:57.458] Project '/dev/null/autoImportProviderProject8*' (AutoImportProvider)
+Info 445  [15:18:57.458] 	Files (556)
+
+Info 446  [15:18:57.458] -----------------------------------------------
+Info 447  [15:18:58.813] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 448  [15:18:58.852] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 38.969983994960785ms
+Info 449  [15:18:58.852] Different program with same set of files
