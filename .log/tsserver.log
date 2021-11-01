@@ -288,3 +288,164 @@ Info 256  [15:07:21.843] Different program with same set of files
 Info 257  [15:07:28.003] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
 Info 258  [15:07:28.056] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 53.16319499909878ms
 Info 259  [15:07:28.056] Different program with same set of files
+Info 260  [15:09:40.854] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 261  [15:09:40.942] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 87.81079399585724ms
+Info 262  [15:09:40.942] Different program with same set of files
+Info 263  [15:10:05.404] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieCard
+Info 264  [15:10:05.404] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieCard/index.js :: No config files found.
+Info 265  [15:12:09.252] DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 266  [15:12:09.253] Elapsed:: 0.7918969988822937ms DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 267  [15:12:10.256] DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 268  [15:12:10.256] Elapsed:: 0.08808000385761261ms DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components :: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 269  [15:12:11.513] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 270  [15:12:11.678] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 21 structureChanged: true structureIsReused:: SafeModules Elapsed: 164.59281599521637ms
+Info 271  [15:12:11.678] Different program with same set of files
+Info 272  [15:12:13.763] Before ensureProjectForOpenFiles:
+Info 273  [15:12:13.764] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 274  [15:12:13.770] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 7 structureChanged: true structureIsReused:: Not Elapsed: 5.480415001511574ms
+Info 275  [15:12:13.770] Project '/dev/null/inferredProject4*' (Inferred)
+Info 276  [15:12:13.770] 	Files (0)
+
+Info 277  [15:12:13.770] -----------------------------------------------
+Info 278  [15:12:13.770] Project '/dev/null/autoImportProviderProject4*' (AutoImportProvider)
+Info 279  [15:12:13.770] 	Files (556)
+
+Info 280  [15:12:13.770] -----------------------------------------------
+Info 281  [15:12:13.770] After ensureProjectForOpenFiles:
+Info 282  [15:12:13.770] got projects updated in background, updating diagnostics for /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/templateMovieListPage/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/templateMoviePage/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/pages/movieDetailsPage.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/api/tmdb-api.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReviews/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/util.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieDetails/index.js,/home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieCard/index.js
+Info 283  [15:12:30.160] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview
+Info 284  [15:12:30.160] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview/index.js :: No config files found.
+Info 285  [15:12:30.168] Starting updateGraphWorker: Project: /dev/null/inferredProject6*
+Info 286  [15:12:30.257] Finishing updateGraphWorker: Project: /dev/null/inferredProject6* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 89.22667500376701ms
+Info 287  [15:12:30.258] Project '/dev/null/inferredProject6*' (Inferred)
+Info 288  [15:12:30.258] 	Files (182)
+
+Info 289  [15:12:30.258] -----------------------------------------------
+Info 290  [15:12:30.270] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject6*
+Info 291  [15:12:30.446] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject6* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 175.87230099737644ms
+Info 292  [15:12:30.446] Project '/dev/null/autoImportProviderProject6*' (AutoImportProvider)
+Info 293  [15:12:30.446] 	Files (556)
+
+Info 294  [15:12:30.446] -----------------------------------------------
+Info 295  [15:12:30.448] `remove Project::
+Info 296  [15:12:30.448] Project '/dev/null/inferredProject4*' (Inferred)
+Info 297  [15:12:30.449] 	Files (0)
+
+Info 298  [15:12:30.449] -----------------------------------------------
+Info 299  [15:12:30.449] Project '/dev/null/autoImportProviderProject4*' (AutoImportProvider)
+Info 300  [15:12:30.449] 	Files (556)
+
+Info 301  [15:12:30.449] -----------------------------------------------
+Info 302  [15:12:31.126] DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview/index.js 0:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 303  [15:12:31.126] Elapsed:: 0.029062002897262573ms DirectoryWatcher:: Triggered with /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/movieReview/index.js 0:: WatchInfo: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 304  [15:12:43.409] Starting updateGraphWorker: Project: /dev/null/inferredProject6*
+Info 305  [15:12:43.454] Finishing updateGraphWorker: Project: /dev/null/inferredProject6* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 45.756410002708435ms
+Info 306  [15:12:43.455] Different program with same set of files
+Info 307  [15:12:44.664] Starting updateGraphWorker: Project: /dev/null/inferredProject6*
+Info 308  [15:12:44.696] Finishing updateGraphWorker: Project: /dev/null/inferredProject6* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 30.931880995631218ms
+Info 309  [15:12:44.696] Different program with same set of files
+Info 310  [15:13:51.070] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/pages
+Info 311  [15:13:51.071] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/pages/movieReviewPage.js :: No config files found.
+Info 312  [15:13:51.071] Starting updateGraphWorker: Project: /dev/null/inferredProject7*
+Info 313  [15:13:51.156] Finishing updateGraphWorker: Project: /dev/null/inferredProject7* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 84.52925299108028ms
+Info 314  [15:13:51.156] Project '/dev/null/inferredProject7*' (Inferred)
+Info 315  [15:13:51.156] 	Files (182)
+
+Info 316  [15:13:51.156] -----------------------------------------------
+Info 317  [15:13:51.164] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject7*
+Info 318  [15:13:51.340] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject7* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 175.17939800024033ms
+Info 319  [15:13:51.340] Project '/dev/null/autoImportProviderProject7*' (AutoImportProvider)
+Info 320  [15:13:51.340] 	Files (556)
+
+Info 321  [15:13:51.340] -----------------------------------------------
+Info 322  [15:14:00.097] Starting updateGraphWorker: Project: /dev/null/inferredProject7*
+Info 323  [15:14:00.160] Finishing updateGraphWorker: Project: /dev/null/inferredProject7* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 63.40097500383854ms
+Info 324  [15:14:00.161] Project '/dev/null/inferredProject7*' (Inferred)
+Info 325  [15:14:00.161] 	Files (556)
+
+Info 326  [15:14:00.161] -----------------------------------------------
+Info 327  [15:14:00.161] Project '/dev/null/autoImportProviderProject7*' (AutoImportProvider)
+Info 328  [15:14:00.161] 	Files (556)
+
+Info 329  [15:14:00.161] -----------------------------------------------
+Info 330  [15:14:01.314] Starting updateGraphWorker: Project: /dev/null/inferredProject7*
+Info 331  [15:14:01.349] Finishing updateGraphWorker: Project: /dev/null/inferredProject7* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 34.58619999885559ms
+Info 332  [15:14:01.349] Different program with same set of files
+Info 333  [15:14:16.201] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src
+Info 334  [15:14:16.201] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/index.js :: No config files found.
+Info 335  [15:14:16.201] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 336  [15:14:16.410] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 208.53019399940968ms
+Info 337  [15:14:16.410] Project '/dev/null/inferredProject8*' (Inferred)
+Info 338  [15:14:16.410] 	Files (588)
+
+Info 339  [15:14:16.410] -----------------------------------------------
+Info 340  [15:14:16.418] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject8*
+Info 341  [15:14:16.566] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject8* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 148.42976699769497ms
+Info 342  [15:14:16.566] Project '/dev/null/autoImportProviderProject8*' (AutoImportProvider)
+Info 343  [15:14:16.566] 	Files (556)
+
+Info 344  [15:14:16.566] -----------------------------------------------
+Info 345  [15:14:16.569] `remove Project::
+Info 346  [15:14:16.569] Project '/dev/null/inferredProject1*' (Inferred)
+Info 347  [15:14:16.569] 	Files (560)
+
+Info 348  [15:14:16.569] -----------------------------------------------
+Info 349  [15:14:16.569] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 350  [15:14:16.569] 	Files (556)
+
+Info 351  [15:14:16.569] -----------------------------------------------
+Info 352  [15:14:16.573] `remove Project::
+Info 353  [15:14:16.573] Project '/dev/null/inferredProject6*' (Inferred)
+Info 354  [15:14:16.573] 	Files (182)
+
+Info 355  [15:14:16.573] -----------------------------------------------
+Info 356  [15:14:16.573] Project '/dev/null/autoImportProviderProject6*' (AutoImportProvider)
+Info 357  [15:14:16.573] 	Files (556)
+
+Info 358  [15:14:16.573] -----------------------------------------------
+Info 359  [15:14:16.577] `remove Project::
+Info 360  [15:14:16.577] Project '/dev/null/inferredProject3*' (Inferred)
+Info 361  [15:14:16.577] 	Files (576)
+
+Info 362  [15:14:16.577] -----------------------------------------------
+Info 363  [15:14:16.577] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 364  [15:14:16.577] 	Files (556)
+
+Info 365  [15:14:16.577] -----------------------------------------------
+Info 366  [15:14:22.062] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 367  [15:14:22.100] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 37.56207799911499ms
+Info 368  [15:14:22.100] Different program with same set of files
+Info 369  [15:14:24.735] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 370  [15:14:24.792] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 3 structureChanged: true structureIsReused:: SafeModules Elapsed: 57.17831899225712ms
+Info 371  [15:14:24.792] Project '/dev/null/inferredProject8*' (Inferred)
+Info 372  [15:14:24.792] 	Files (590)
+
+Info 373  [15:14:24.792] -----------------------------------------------
+Info 374  [15:14:24.792] Project '/dev/null/autoImportProviderProject8*' (AutoImportProvider)
+Info 375  [15:14:24.792] 	Files (556)
+
+Info 376  [15:14:24.792] -----------------------------------------------
+Info 377  [15:14:36.696] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 378  [15:14:36.738] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 41.58058699965477ms
+Info 379  [15:14:36.738] Different program with same set of files
+Info 380  [15:14:36.782] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 381  [15:14:36.813] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 31.369107007980347ms
+Info 382  [15:14:36.813] Different program with same set of files
+Info 383  [15:14:38.346] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 384  [15:14:38.541] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 195.25835900008678ms
+Info 385  [15:14:38.541] Different program with same set of files
+Info 386  [15:14:39.048] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 387  [15:14:39.090] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 41.72700600326061ms
+Info 388  [15:14:39.090] Different program with same set of files
+Info 389  [15:14:40.694] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 390  [15:14:40.733] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 38.44291099905968ms
+Info 391  [15:14:40.733] Different program with same set of files
+Info 392  [15:14:40.884] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 393  [15:14:40.923] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 38.06709299981594ms
+Info 394  [15:14:40.923] Different program with same set of files
+Info 395  [15:14:43.111] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 396  [15:14:43.276] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 164.66897700726986ms
+Info 397  [15:14:43.276] Different program with same set of files
+Info 398  [15:14:44.946] Starting updateGraphWorker: Project: /dev/null/inferredProject8*
+Info 399  [15:14:44.984] Finishing updateGraphWorker: Project: /dev/null/inferredProject8* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 37.45194099843502ms
+Info 400  [15:14:44.984] Different program with same set of files
