@@ -1,0 +1,52 @@
+Info 0    [13:38:53.008] Starting TS Server
+Info 1    [13:38:53.009] Version: 4.4.3
+Info 2    [13:38:53.009] Arguments: /usr/bin/node /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/node_modules/.bin/tsserver --logFile /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/e53cb26806f5e2422b5608ebc795d1e4/tscancellation*
+Info 3    [13:38:53.009] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [13:38:53.009] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [13:38:53.042] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/pages
+Info 6    [13:38:53.044] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/pages/favoriteMoviesPage.js :: No config files found.
+Info 7    [13:38:53.052] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [13:38:58.380] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 5328.216624006629ms
+Info 9    [13:38:58.381] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [13:38:58.381] 	Files (182)
+
+Info 11   [13:38:58.381] -----------------------------------------------
+Info 12   [13:38:58.460] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 13   [13:39:00.448] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1988.3129300028086ms
+Info 14   [13:39:00.448] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 15   [13:39:00.448] 	Files (556)
+
+Info 16   [13:39:00.448] -----------------------------------------------
+Info 17   [13:39:00.521] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 18   [13:39:00.670] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 148.92932099103928ms
+Info 19   [13:39:00.670] Different program with same set of files
+Info 20   [13:39:10.403] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 21   [13:39:10.494] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 90.52359300851822ms
+Info 22   [13:39:10.494] Different program with same set of files
+Info 23   [13:50:04.183] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/templateMovieListPage
+Info 24   [13:50:04.184] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/Lab-Movie_App-Part2/src/components/templateMovieListPage/index.js :: No config files found.
+Info 25   [13:50:04.196] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 26   [13:50:04.421] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 225.1280660033226ms
+Info 27   [13:50:04.421] Project '/dev/null/inferredProject2*' (Inferred)
+Info 28   [13:50:04.421] 	Files (182)
+
+Info 29   [13:50:04.421] -----------------------------------------------
+Info 30   [13:50:04.452] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 31   [13:50:04.876] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 424.2514650076628ms
+Info 32   [13:50:04.876] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 33   [13:50:04.876] 	Files (556)
+
+Info 34   [13:50:04.876] -----------------------------------------------
+Info 35   [13:50:13.226] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 36   [13:50:14.610] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 1382.9442370086908ms
+Info 37   [13:50:14.610] Project '/dev/null/inferredProject2*' (Inferred)
+Info 38   [13:50:14.610] 	Files (559)
+
+Info 39   [13:50:14.611] -----------------------------------------------
+Info 40   [13:50:14.611] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 41   [13:50:14.611] 	Files (556)
+
+Info 42   [13:50:14.611] -----------------------------------------------
+Info 43   [13:50:17.323] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 44   [13:50:17.440] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 115.91355299949646ms
+Info 45   [13:50:17.440] Different program with same set of files
