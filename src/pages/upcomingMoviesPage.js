@@ -103,7 +103,7 @@ import {getMoviesUpcoming} from '../api/tmdb-api'
 import AddToPlaylistsIcon from "../components/cardIcons/addToPlaylist";
 
 const UpcomingMoviesPage = (props) => {
-  const {  data, error, isLoading, isError }  = useQuery('discover', getMoviesUpcoming)
+  const {  data, error, isLoading, isError }  = useQuery('upcoming', getMoviesUpcoming)
 
   if (isLoading) {
     return <Spinner />
