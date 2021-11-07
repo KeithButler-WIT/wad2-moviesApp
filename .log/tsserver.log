@@ -1,55 +1,44 @@
-Info 0    [14:50:43.114] Starting TS Server
-Info 1    [14:50:43.115] Version: 4.4.3
-Info 2    [14:50:43.115] Arguments: /usr/bin/node /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/.bin/tsserver --logFile /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/799eefa420676f42450c2729a134a534/tscancellation*
-Info 3    [14:50:43.115] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [14:50:43.115] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [14:50:43.502] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src
-Info 6    [14:50:43.504] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/index.js :: No config files found.
-Info 7    [14:50:43.517] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 8    [14:50:51.432] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 7914.156055998057ms
-Info 9    [14:50:51.433] Project '/dev/null/inferredProject1*' (Inferred)
-Info 10   [14:50:51.433] 	Files (594)
+Info 0    [18:45:22.886] Starting TS Server
+Info 1    [18:45:22.887] Version: 4.4.3
+Info 2    [18:45:22.887] Arguments: /usr/bin/node /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/node_modules/.bin/tsserver --logFile /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/9344d39961a24ebdd96fdef615e45428/tscancellation*
+Info 3    [18:45:22.887] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [18:45:22.887] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:45:22.908] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/contexts
+Info 6    [18:45:22.910] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/contexts/moviesContext.js :: No config files found.
+Info 7    [18:45:22.915] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [18:45:26.106] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 3191.0097999982536ms
+Info 9    [18:45:26.106] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [18:45:26.106] 	Files (182)
 
-Info 11   [14:50:51.433] -----------------------------------------------
-Info 12   [14:50:51.478] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 13   [14:50:52.138] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 659.4502540007234ms
-Info 14   [14:50:52.139] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 15   [14:50:52.139] 	Files (556)
+Info 11   [18:45:26.106] -----------------------------------------------
+Info 12   [18:45:26.135] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 13   [18:45:27.221] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1085.8244899995625ms
+Info 14   [18:45:27.221] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 15   [18:45:27.221] 	Files (556)
 
-Info 16   [14:50:52.139] -----------------------------------------------
-Info 17   [14:50:53.199] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry 0:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 18   [14:50:53.202] Elapsed:: 1.8503779992461205ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry 0:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 19   [14:50:53.203] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/bindings 1:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 20   [14:50:53.203] Elapsed:: 0.5389309972524643ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/bindings 1:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 21   [14:50:53.203] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/file-uri-to-path 2:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 22   [14:50:53.204] Elapsed:: 0.16157599911093712ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/file-uri-to-path 2:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 23   [14:50:53.204] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/fsevents 3:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 24   [14:50:53.205] Elapsed:: 0.30646099895238876ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/fsevents 3:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 25   [14:50:53.205] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/nan 4:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 26   [14:50:53.205] Elapsed:: 0.07793800160288811ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/nan 4:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 27   [14:50:53.205] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry 5:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 28   [14:50:53.205] Elapsed:: 0.056797001510858536ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry 5:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 29   [14:50:53.205] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/fsevents 6:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 30   [14:50:53.205] Elapsed:: 0.06798899918794632ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/fsevents 6:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 31   [14:50:53.205] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/bindings 7:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 32   [14:50:53.206] Elapsed:: 0.07995200157165527ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/bindings 7:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 33   [14:50:53.206] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/file-uri-to-path 8:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 34   [14:50:53.206] Elapsed:: 0.4722350016236305ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/file-uri-to-path 8:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 35   [14:50:53.206] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/nan 9:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 36   [14:50:53.206] Elapsed:: 0.079220000654459ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/nan 9:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 37   [14:50:53.206] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 10:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 38   [14:50:53.206] Elapsed:: 0.027592003345489502ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 10:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 39   [14:50:53.207] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/README.md 11:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 40   [14:50:53.207] Elapsed:: 0.29659299924969673ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/README.md 11:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 41   [14:50:53.207] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/index.json 12:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 42   [14:50:53.208] Elapsed:: 0.6095659993588924ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/index.json 12:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 43   [14:50:53.208] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/package.json 13:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 44   [14:50:53.208] Elapsed:: 0.09808500111103058ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/package.json 13:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 45   [14:50:53.208] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 14:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 46   [14:50:53.208] Elapsed:: 0.06935099884867668ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 14:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 47   [14:50:53.208] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 15:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 48   [14:50:53.208] Elapsed:: 0.02325499802827835ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/types-registry/types-registry 15:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 49   [14:50:53.208] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/@types/webpack-dev-server/node_modules/fsevents 16:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 50   [14:50:53.208] Elapsed:: 0.07500199973583221ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/@types/webpack-dev-server/node_modules/fsevents 16:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 51   [14:50:53.208] DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/@types/webpack-dev-server/node_modules/fsevents 17:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 52   [14:50:53.208] Elapsed:: 0.07074400037527084ms DirectoryWatcher:: Triggered with /home/keith/.cache/typescript/4.4/node_modules/@types/webpack-dev-server/node_modules/fsevents 17:: WatchInfo: /home/keith/.cache/typescript/4.4/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 16   [18:45:27.221] -----------------------------------------------
+Info 17   [18:45:58.069] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/pages
+Info 18   [18:45:58.069] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/pages/homePage.js :: No config files found.
+Info 19   [18:45:58.075] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 20   [18:45:58.781] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 706.2241229973733ms
+Info 21   [18:45:58.781] Project '/dev/null/inferredProject2*' (Inferred)
+Info 22   [18:45:58.781] 	Files (597)
+
+Info 23   [18:45:58.781] -----------------------------------------------
+Info 24   [18:45:58.796] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 25   [18:45:59.277] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 480.575911000371ms
+Info 26   [18:45:59.277] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 27   [18:45:59.277] 	Files (523)
+
+Info 28   [18:45:59.277] -----------------------------------------------
+Info 29   [18:45:59.280] `remove Project::
+Info 30   [18:45:59.280] Project '/dev/null/inferredProject1*' (Inferred)
+Info 31   [18:45:59.280] 	Files (182)
+
+Info 32   [18:45:59.280] -----------------------------------------------
+Info 33   [18:45:59.280] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 34   [18:45:59.280] 	Files (556)
+
+Info 35   [18:45:59.280] -----------------------------------------------
+Info 36   [18:47:56.703] Search path: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/cardIcons
+Info 37   [18:47:56.703] For info: /home/keith/OneDrive/College Files/Semester 05/Web App Dev 2/wad2-moviesApp/src/components/cardIcons/addToFavorites.js :: No config files found.
