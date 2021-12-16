@@ -38,9 +38,7 @@ A node.js movie searching app using tmdb api.
 ![](./images/storybook.png)
 ### UI Design.
 
-[ Insert screenshots of the __new/modified app pages__ you developed (and modified existing pages), Include an appropriate caption for each one (see example below).
-
-![ ](./images/view.png)
+![ ](./images/tvshows.png)
 
 >Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
 
