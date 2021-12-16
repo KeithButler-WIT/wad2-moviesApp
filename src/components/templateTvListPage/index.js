@@ -19,7 +19,7 @@ function TvListPageTemplate({ tvs, title, action }) {
 
   let displayedTvs = tvs
     .filter((m) => {
-      return m.title.toLowerCase().search(nameFilter.toLowerCase()) !== -1;
+      return m.name.toLowerCase().search(nameFilter.toLowerCase()) !== -1;
     })
     .filter((m) => {
       return genreId > 0 ? m.genre_ids.includes(genreId) : true;

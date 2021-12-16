@@ -27,7 +27,6 @@ const TvsContextProvider = (props) => {
         favorites,
         addToFavorites,
         removeFromFavorites,
-        addReview,
       }}
     >
       {props.children}

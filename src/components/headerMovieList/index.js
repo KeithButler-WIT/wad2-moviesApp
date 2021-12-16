@@ -28,7 +28,8 @@ const Header = ({ title, history }) => {
       </Typography>
       <IconButton aria-label="go forward" onClick={() => history.goForward()}>
         <ArrowForwardIcon color="primary" fontSize="large" />
-      </IconButton>    </Paper>
+      </IconButton>
+    </Paper>
   );
 };
 

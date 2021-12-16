@@ -4,8 +4,7 @@ import { PeoplesContext } from "../contexts/peoplesContext";
 import { useQueries } from "react-query";
 import { getPeople } from "../api/tmdb-api";
 import Spinner from '../components/spinner';
-import RemoveFromFavorites from "../components/cardIcons/removeFromFavorites";
-import WriteReview from "../components/cardIcons/writeReview";
+import favIcon from "../components/cardIcons/removeFromFavorites";
 
 const FavoritePeoplesPage = () => {
   const {favorites: peopleIds } = useContext(PeoplesContext);
@@ -35,8 +34,7 @@ const FavoritePeoplesPage = () => {
       action={(people) => {
         return (
           <>
-            <RemoveFromFavorites people={people} />
-            <WriteReview people={people} />
+            <favIcon.RemoveFromPeopleFavoritesIcon people={people} />
           </>
         );
       }}

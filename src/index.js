@@ -4,7 +4,8 @@ import { BrowserRouter, Route, Redirect, Switch, Link } from "react-router-dom";
 import HomePage from "./pages/homePage";
 import MoviePage from "./pages/movieDetailsPage";
 import PeoplePage from "./pages/peopleDetailsPage";
-import TvPage from "./pages/tvDetailsPage";
+import TvDetailsPage from "./pages/tvDetailsPage";
+import TvPage from "./pages/tvPage";
 import FavoriteMoviesPage from "./pages/favoriteMoviesPage";
 import FavoritePeoplesPage from "./pages/favoritePeoplesPage";
 import FavoriteTvsPage from "./pages/favoriteTvsPage";
@@ -46,46 +47,26 @@ const App = () => {
           </Switch>
         </MoviesContextProvider>
         <PeoplesContextProvider>
+          {" "}
+          <Switch>
             <Route path="/peoples" component={PeoplePage} />
             <Route exact path="/peoples/favorites" component={FavoritePeoplesPage} />
+          </Switch>
         </PeoplesContextProvider>
         <TvsContextProvider>
+          {" "}
+          <Switch>
             <Route path="/tv" component={TvPage} />
-            <Route exact path="/tv/reviews/:id" component={TvReviewPage} />
+            <Route path="/tv/:id" component={TvDetailsPage} />
             <Route exact path="/tv/favorites" component={FavoriteTvsPage} />
+            <Route exact path="/tv/reviews/:id" component={TvReviewPage} />
             <Redirect from="*" to="/" />
+          </Switch>
         </TvsContextProvider>
       </BrowserRouter>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 };
-
-// const App = () => {
-//   return (
-//     <QueryClientProvider client={queryClient}>
-//       <BrowserRouter>
-//         <SiteHeader />
-//         <MoviesContextProvider>
-//           {" "}
-//           <Switch>
-//             <Route exact path="/reviews/form" component={AddMovieReviewPage} />
-//             <Route exact path="/movies/upcoming" component={UpcomingMoviesPage} />
-//             <Route path="/reviews/:id" component={MovieReviewPage} />
-//             <Route exact path="/movies/favorites" component={FavoriteMoviesPage} />
-//             <Route path="/movies/:id" component={MoviePage} />
-//             <Route path="/peoples" component={PeoplePage} />
-//             <Route exact path="/peoples/favorites" component={FavoritePeoplesPage} />
-//             <Route path="/tv" component={PeoplePage} />
-//             <Route exact path="/tv/favorites" component={FavoritePeoplesPage} />
-//             <Route exact path="/" component={HomePage} />
-//             <Redirect from="*" to="/" />
-//           </Switch>
-//         </MoviesContextProvider>
-//       </BrowserRouter>
-//       <ReactQueryDevtools initialIsOpen={false} />
-//     </QueryClientProvider>
-//   );
-// };
 
 ReactDOM.render(<App />, document.getElementById("root"));

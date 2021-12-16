@@ -4,8 +4,7 @@ import { TvsContext } from "../contexts/tvsContext";
 import { useQueries } from "react-query";
 import { getTv } from "../api/tmdb-api";
 import Spinner from '../components/spinner';
-import RemoveFromFavorites from "../components/cardIcons/removeFromFavorites";
-import WriteReview from "../components/cardIcons/writeReview";
+import favIcon from "../components/cardIcons/removeFromFavorites";
 
 const FavoriteTvsPage = () => {
   const {favorites: tvIds } = useContext(TvsContext);
@@ -35,8 +34,7 @@ const FavoriteTvsPage = () => {
       action={(tv) => {
         return (
           <>
-            <RemoveFromFavorites tv={tv} />
-            <WriteReview tv={tv} />
+            <favIcon.RemoveFromTvFavoritesIcon tv={tv} />
           </>
         );
       }}

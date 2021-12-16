@@ -3,10 +3,10 @@ import PageTemplate from "../components/templatePeopleListPage";
 import { useQuery } from 'react-query'
 import Spinner from '../components/spinner'
 import {getPeoples} from '../api/tmdb-api'
-import AddToFavoritesIcon from '../components/cardIcons/addToFavorites'
+import favIcon from '../components/cardIcons/addToFavorites'
 
 const PeoplePage = (props) => {
-  const {  data, error, isLoading, isError }  = useQuery('discover', getPeoples)
+  const {  data, error, isLoading, isError }  = useQuery('discover actors', getPeoples)
 
   if (isLoading) {
     return <Spinner />
@@ -27,7 +27,7 @@ const PeoplePage = (props) => {
       title="Discover Actors"
       peoples={peoples}
       action={(people) => {
-        return <AddToFavoritesIcon people={people} />
+        return <favIcon.AddToPeopleFavoritesIcon people={people} />
       }}
     />
   );

@@ -32,8 +32,11 @@ const TvHeader = ( { tv, history}) => {
 
       <Typography variant="h4" component="h3">
         {tv.name}
-        <br />
-        <span className={classes.tagLine}>{`   "${tv.tagline}"`} </span>
+        <a href={tv.tvPage}>
+          <HomeIcon color="primary" />
+        </a>
+        <br/>
+        {/* <span className={classes.tagLine}>{`   "${tv.tagline}"`} </span> */}
       </Typography>
       <IconButton aria-label="go forward" onClick={() => history.goForward() } >
         <ArrowForwardIcon color="primary" fontSize="large" />

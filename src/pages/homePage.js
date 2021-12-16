@@ -3,10 +3,10 @@ import PageTemplate from "../components/templateMovieListPage";
 import { useQuery } from 'react-query'
 import Spinner from '../components/spinner'
 import {getMovies} from '../api/tmdb-api'
-import AddToFavoritesIcon from '../components/cardIcons/addToFavorites'
+import favIcon from '../components/cardIcons/addToFavorites'
 
 const HomePage = (props) => {
-  const {  data, error, isLoading, isError }  = useQuery('discover', getMovies)
+  const {  data, error, isLoading, isError }  = useQuery('discover movies', getMovies)
 
   if (isLoading) {
     return <Spinner />
@@ -27,7 +27,7 @@ const HomePage = (props) => {
       title="Discover Movies"
       movies={movies}
       action={(movie) => {
-        return <AddToFavoritesIcon movie={movie} />
+        return <favIcon.AddToMovieFavoritesIcon movie={movie} />
       }}
     />
   );

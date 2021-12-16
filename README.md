@@ -4,29 +4,30 @@ Name: Keith Butler
 
 ## Overview.
 
-[A brief statement on the content of this repository.]
+A node.js movie searching app using tmdb api.
 
 ### Features.
-[ A bullet-point list of the __new features__ you added to the Movies Fan app (and any modifications to existing features) .]
  
-+ Feature 1
-+ Feature 2
-+ Feature 3
-+ etc
-+ etc
++ Tv shows page 
++ Favourite Tv shows page 
++ Adding tv shows to favourites list
++ Actors page 
++ Favourite actors page 
++ Adding Actors to watch list
 
 ## Setup requirements.
 
-[ Outline any non-standard setup steps necessary to run your app locally after cloning the repo.]
+    npm start
 
 ## API endpoints.
 
-[ List the __additional__ TMDB endpoints used, giving the description and pathname for each one.] 
-
-e.g.
 + Discover list of movies - discover/movie
 + Movie details - movie/:id
++ Movie details - movie/:id/review
 + Movie genres = /genre/movie/list
++ Discover list of tv shows - discover/tv
++ Tv show details - tv/:id
++ Tv show review details - tv/:id/review
 
 ## App Design.
 
@@ -49,15 +50,15 @@ e.g.
 
 ### Routing.
 
-[ List the __new routes__ supported by your app and state the associated page.]
-
-+ /blogs - displays all published blogs.
-+ /blogs/:id - displays a particular blog.
-+ /blogs/:id/comments - detail view of a particular blog and its comments.
-+ etc.
++ /people - displays all known actors (not fully working).
++ //:id - displays a particular actor (not fully working).
++ /tv - displays all known tv shows.
++ /tv - displays all known tv shows.
++ /tv/:id - displays a particular actor (not fully working).
++ /tv/:id/review - displays a particular actor (not fully working).
 
 [If relevant, state what aspects of your app are protected (i.e. require authentication) and what is public.]
 
 ## Independent learning (If relevant).
 
-[ Itemize the technologies/techniques you researched independently and adopted in your project, i.e. aspects not covered in the lectures/labs. Include the source code filenames that illustrate these (we do not require code excerpts) and provide references to the online resources that helped you (articles/blogs).
+The api docs: https://developers.themoviedb.org/3/discover/tv-discover

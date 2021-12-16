@@ -31,12 +31,12 @@ const PeopleHeader = ( { people, history}) => {
       </IconButton>
 
       <Typography variant="h4" component="h3">
-        {people.title}
+        {people.name}
         <a href={people.peoplePage}>
           <HomeIcon color="primary" />
         </a>
-        <br />
-        <span className={classes.tagLine}>{`   "${people.tagline}"`} </span>
+        <br/>
+        {/* <span className={classes.tagLine}>{`   "${people.tagline}"`} </span> */}
       </Typography>
       <IconButton aria-label="go forward" onClick={() => history.goForward() } >
         <ArrowForwardIcon color="primary" fontSize="large" />
