@@ -40,11 +40,7 @@ A node.js movie searching app using tmdb api.
 
 ![ ](./images/tvshows.png)
 
->Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
-
-![ ](./images/view.png)
-
->Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
+>Shows detailed information on a tv show.
 
 ### Routing.
 
